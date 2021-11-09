@@ -216,7 +216,7 @@ class Product extends Component {
                         this.props.categorys.map((value, key) => {
                           return <li key={key}><a >{value.name}</a> </li>
                         })
-                      }
+                      } 
                     </ul>
                   </div>
                   {/* Categories End */}
